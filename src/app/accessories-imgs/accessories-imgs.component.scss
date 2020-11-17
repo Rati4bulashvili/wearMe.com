@@ -3,8 +3,22 @@
   background-color: red;
   margin-bottom: 500px;
   width: 100%;
+
+  .grid--row2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    overflow: hidden;
+    margin-bottom: 10px;
   
-.grid--row1, .grid--row2{
+    img{
+      width: 90%;
+      height: 90%;
+    }
+
+  }
+  
+.grid--row1{
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
@@ -12,12 +26,13 @@
   margin-bottom: 10px;
 
   img{
-    width: 100%;
+    width: 90%;
+    height: 80%;
   }
 }
 
 .grid--row1--column1, .grid--row2--column1 {
-  width: 65%;
+  width: 50%;
   padding-right: 10px;
 
   img{
@@ -27,7 +42,7 @@
 }
 
 .grid--row1--column2, .grid--row2--column2{
-  width: 35%;
+  width: 25%;
 
   .grid--row1--column2--row1{
     height: 50%;
