@@ -1,0 +1,91 @@
+h1, h2, h3, h4, h5, h6, p, label {
+  font-family: sans-serif;
+}
+
+.sale {
+  margin-bottom: 70px;
+}
+
+.sale .sale__header {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 23px;
+  margin: 45px 30px 10px 30px;
+}
+
+.sale .sale__pics {
+  height: 500px;
+  width: 100%;
+}
+
+.sale .sale__pics .sale__pics__list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1, .sale .sale__pics .sale__pics__list .sale__pics__list__item2, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 {
+  background: rgba(109, 109, 115, 0.466);
+  margin: 20px;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 img, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 img, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 img {
+  width: 320px;
+  height: 350px;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy {
+  padding: 10px;
+  margin: 5px 0px 0px 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy .sale__pics__list__item3__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy .sale__pics__list__item1__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy .sale__pics__list__item__buy__name, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy .sale__pics__list__item3__buy__name {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--2nd, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--2nd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--2nd [class$="collection"], .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--2nd [class$="price"], .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--2nd [class$="collection"] {
+  margin: 8px 0px;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--3rd, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--3rd {
+  margin: 0px;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity {
+  width: 295px;
+  margin: 10px auto;
+}
+
+.sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item1__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item2__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item1 .sale__pics__list__item3__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item1__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item2__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item2 .sale__pics__list__item3__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item1__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item2__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--3rd .sale__pics__list__item1__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--3rd .sale__pics__list__item2__buy--3rd__quaintity input, .sale .sale__pics .sale__pics__list .sale__pics__list__item3 .sale__pics__list__item3__buy--3rd .sale__pics__list__item3__buy--3rd__quaintity input {
+  margin: 0px 10px;
+}
+/*# sourceMappingURL=clothes-sale.component.css.map */

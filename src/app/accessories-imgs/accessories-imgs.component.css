@@ -1,0 +1,58 @@
+.gallery {
+  margin-bottom: 500px;
+}
+
+.imgs {
+  overflow: hidden;
+  height: 835px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0px;
+}
+
+.row img {
+  width: 100%;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  padding-right: 10px;
+  -webkit-box-flex: 67%;
+      -ms-flex: 67%;
+          flex: 67%;
+}
+
+.column2 {
+  -webkit-box-flex: 33%;
+      -ms-flex: 33%;
+          flex: 33%;
+}
+
+.column2 .gallery__imgs__row__column2--img1 {
+  padding-bottom: 10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.gallery__parallax {
+  /* The image used */
+  background-image: url("../../assets/accessories/watches/parallax.jpg");
+  /* Full height */
+  height: 600px;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=accessories-imgs.component.css.map */

@@ -1,0 +1,77 @@
+h1,h2,h3,h4,h5,h6,p,label{
+  font-family: sans-serif;
+}
+
+.sale{
+  margin-bottom: 70px;
+
+  .sale__header{
+    font-family: sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+  margin: 45px 30px 10px 30px;
+}
+
+.sale__pics{
+  height: 500px;
+  width: 100%;
+
+  .sale__pics__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+    .sale__pics__list__item1, .sale__pics__list__item2, .sale__pics__list__item3{
+      background: rgba(109, 109, 115, 0.466);
+      margin: 20px;
+
+      img{
+        width: 320px;
+        height: 350px;
+      }
+
+      .sale__pics__list__item1__buy, .sale__pics__list__item2__buy, .sale__pics__list__item3__buy{
+        padding: 10px;
+        margin: 5px 0px 0px 0px;
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .sale__pics__list__item1__buy__name, .sale__pics__list__item__buy__name, .sale__pics__list__item3__buy__name{
+          text-transform: uppercase;
+          letter-spacing: 1.5px;
+        }
+      }
+
+      .sale__pics__list__item1__buy--2nd, .sale__pics__list__item2__buy--2nd, .sale__pics__list__item3__buy--2nd{
+        display: flex;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+
+        [class$="price"], [class$="collection"]{
+          margin: 8px 0px;
+        }
+      }
+
+      .sale__pics__list__item1__buy--3rd, .sale__pics__list__item2__buy--3rd, .sale__pics__list__item3__buy--3rd{
+        margin: 0px;
+
+        .sale__pics__list__item1__buy--3rd__quaintity, .sale__pics__list__item2__buy--3rd__quaintity, .sale__pics__list__item3__buy--3rd__quaintity{
+          width: 295px;
+          margin: 10px auto;
+
+          input{
+            margin: 0px 10px;
+          }
+        }
+      }
+    }
+  }
+}
+}
+
